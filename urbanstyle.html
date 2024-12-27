@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phoneix </title>
+    <link rel="stylesheet" href="urbanstyles.css">
+</head>
+<body>
+    <header>
+        <h1>Phoenix</h1>
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section id="hero">
+        <h1>Redefine Your Style with Phoneix</h1>
+        <p>Bringing you the latest trends in comfort and elegance. Discover your new favorite outfit today!</p>
+        <img src="images/WhatsApp Image 2024-12-26 at 15.45.44_2604bf48.jpg" alt="Phoneix Collection">
+      </section>
+      <section id="about">
+        <h2>About Us</h2>
+        <p><strong>Phoenix</strong> is committed to providing high-quality, stylish, and affordable clothing for every season. Our mission is to make fashion accessible and sustainable.</p>
+      </section>
+      <section id="services">
+        <h2>Our Services</h2>
+        <table>
+          <tr>
+            <th>Service Name</th>
+            <th>Description</th>
+            <th>Price</th>
+          </tr>
+          <tr>
+            <td>Custom T-shirt Printing</td>
+            <td>Unique designs tailored to your taste.</td>
+            <td>$20</td>
+          </tr>
+          <tr>
+            <td>Alterations</td>
+            <td>Professional alterations for the perfect fit.</td>
+            <td>$15</td>
+          </tr>
+        </table>
+      </section>
+      <section id="gallery">
+        <h2>Our Collection</h2>
+        <img src="images\men-s-caramel-orange-toad-sage-graphic-printed-oversized-acid-wash-t-shirt-654546-1730981517-1.webp" alt="T-shirt">
+        <img src="images\men-s-ginger-root-brown-batman-rescue-graphic-printed-oversized-hoodies-652596-1730372786-1.webp" alt="Hoodies">
+      </section>
+      <section id="features" class="features-section">
+        <h1 class="features-title">Our Premium Features</h1>
+        <div class="features-grid">
+            <div class="feature-card">
+                <i class="fas fa-shipping-fast feature-icon"></i>
+                <h3>Free Shipping</h3>
+                <p>Complimentary shipping on all orders over $50</p>
+            </div>
+            
+            <div class="feature-card">
+                <i class="fas fa-leaf feature-icon"></i>
+                <h3>Eco-Friendly</h3>
+                <p>Sustainable and environmentally conscious fabrics</p>
+            </div>
+            
+            <div class="feature-card">
+                <i class="fas fa-tshirt feature-icon"></i>
+                <h3>Custom Designs</h3>
+                <p>Create your perfect style with customizable designs</p>
+            </div>
+        </div>
+    </section>
+    
+      <section id="testimonials">
+        <h2>What Our Customers Say</h2>
+        <div class="testimonial-container">
+            <blockquote class="testimonial-card">
+                <div class="quote-icon">
+                    <i class="fas fa-quote-left"></i>
+                </div>
+                <p class="testimonial-text">"I love Phoneix! The quality is unmatched."</p>
+                <div class="testimonial-author">
+                    <img src="https://via.placeholder.com/50" alt="Alex R." class="author-image">
+                    <div class="author-info">
+                        <h4><i class="fas fa-user"></i> Alex R.</h4>
+                        <span class="author-location">
+                            <i class="fas fa-map-marker-alt"></i> New York, USA
+                        
+                       
+                    </div>
+                </div>
+            </blockquote>
+    
+            <blockquote class="testimonial-card">
+                <div class="quote-icon">
+                    <i class="fas fa-quote-left"></i>
+                </div>
+                <p class="testimonial-text">"My go-to for every season. Stylish and affordable!"</p>
+                <div class="testimonial-author">
+                    <img src="https://via.placeholder.com/50" alt="Jamie T." class="author-image">
+                    <div class="author-info">
+                        <h4><i class="fas fa-user"></i> Jamie T.</h4>
+                        <span class="author-location">
+                            <i class="fas fa-map-marker-alt"></i> London, UK
+                        
+                    </div>
+                </div>
+            </blockquote>
+        </div>
+    </section>
+    
+
+      </section>
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Enter your name">
+            </div>
+        
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="Enter your email">
+            </div>
+        
+            <div class="form-group">
+                <label for="mobile">Mobile Number:</label>
+                <input type="tel" id="mobile" name="mobile" 
+                       pattern="[0-9]{10}" 
+                       maxlength="10" 
+                       required 
+                       placeholder="Enter 10 digit mobile number">
+            </div>
+        
+            <div class="form-group">
+                <label>Preferred Contact Method:</label>
+                <div class="radio-group">
+                    <input type="radio" id="contact-email" name="contact-preference" value="email">
+                    <label for="contact-email">Email</label>
+                    
+                    <input type="radio" id="contact-phone" name="contact-preference" value="phone">
+                    <label for="contact-phone">Phone</label>
+                    
+                </div>
+            </div>
+        
+            <div class="form-group">
+                <label>Interests:</label>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="fashion" name="interests[]" value="fashion">
+                    <label for="fashion">Fashion</label>
+                    
+                    <input type="checkbox" id="accessories" name="interests[]" value="accessories">
+                    <label for="accessories">Accessories</label>
+                    
+                    <input type="checkbox" id="footwear" name="interests[]" value="footwear">
+                    <label for="footwear">Footwear</label>
+                </div>
+            </div>
+            
+        
+                        <div class="form-group">
+                <label for="category">Select Category:</label>
+                <select id="category" name="category" required>
+                    <option value="">Choose a category</option>
+                    <option value="mens">Men's Wear</option>
+                    <option value="womens">Women's Wear</option>
+                    <option value="kids">Kids Wear</option>
+                    <option value="accessories">Accessories</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required placeholder="Enter your message"></textarea>
+            </div>
+        
+            <button type="submit">Submit</button>
+        </form>
+        
+      </section>
+      <section id="media">
+        <h2>Our Story</h2>
+        
+<section class="video-section">
+    <div class="video-container">
+        <video controls>
+            <source src="video\Kvell Apparel Co. - Clothing Brand Promo Video - Glime Studios (1080p, h264, youtube).mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="video-text">
+
+        <p class="tagline">Where Comfort Meets Elegance</p>
+        <p class="description">Experience the perfect blend of contemporary urban fashion and timeless sophistication. Our carefully curated collection brings you the latest trends while maintaining the highest standards of quality and comfort.</p>
+        <ul class="features-list">
+            <li>✦ Handcrafted with care</li>
+            <li>✦ Premium materials</li>
+            <li>✦ Sustainable fashion</li>
+            <li>✦ Exclusive designs</li>
+        </ul>
+        <button class="cta-button">Explore Collection</button>
+    </div>
+</section>        
+     <footer class="site-footer">
+    <div class="footer-content">
+        <div class="footer-section brand">
+            <h3>Phoneix</h3>
+            <p>Crafting timeless elegance for the modern lifestyle. Join us in our journey of sustainable fashion and premium quality.</p>
+            <div class="social-links">
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-section links">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#collections">Collections</a></li>
+                <li><a href="#sustainability">Sustainability</a></li>
+                <li><a href="#blog">Style Blog</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section contact">
+            <h4>Contact Us</h4>
+            <ul>
+                <li><i class="fas fa-map-marker-alt"></i> XYZ Street, Style City</li>
+                <li><i class="fas fa-phone"></i> +91 234 567 890</li>
+                <li><i class="fas fa-envelope"></i> hello@Phoneix.com</li>
+            </ul>
+        </div>
+
+    <div class="footer-bottom">
+        <div class="footer-info">
+            <p>&copy; 2024 Phoneix. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#privacy">Privacy Policy</a>
+                <a href="#terms">Terms of Service</a>
+                <a href="#shipping">Shipping Info</a>
+            </div>
+        </div>
+    </div>
+    </div>
+</footer>
+
+                                                            
+</body>
+</html>
